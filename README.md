@@ -5,9 +5,10 @@ Implemented a path planner from scratch using C++ and ROS. Use the 2D Nav goal t
 ![](/Images_GlobalPlanner/global_planner.png)
 Example of a path being generated after selecting a start and end goal.
 
-To use this on any map, simply run the map_server
+To use this on any map, simply run the map_server with the command
 
 `rosrun map_server map_server path_to_map_file.yaml`
+
 I provided an example map that I generated using the turtlebot3 under maps/map.yaml.
 
 To launch rviz to view the map simply use the command
